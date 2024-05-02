@@ -2,7 +2,6 @@
 
 **Eli-Lilly's Trillion Dollar Dream**
 
-**Introduction**
 In the technology industry, the term "FAANG" relates to the largest and most influential companies in the world: Facebook, Amazon, Apple, Netflix, and Google. 
 In the pharmaceutical industry, companies like Eli Lilly have the potential to join the levels of FAANG if they reach a valuation of 1 trillion dollars. As one of the leading pharmaceutical companies, Eli Lilly has a good history of innovation and a diverse portfolio of products.
 #
