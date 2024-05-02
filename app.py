@@ -3,6 +3,7 @@ import pandas as pd
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
+st.write("#")
 st.markdown("<h1 style='color: #e87723; font-family: High Tower Text;'>Eli Lily Consolidated Revenue</h1>", unsafe_allow_html=True)
 
 
