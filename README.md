@@ -23,7 +23,32 @@ If Eli Lilly were to achieve a trillion-dollar valuation, it would not only sign
  - View products description
  - Compare net sales for the year
 
+**Future Work**
+The clean data includes the past 8 years of data, the visuals can be updated to include more years. The dashboard can be updated to include more sources and revenue cycles
+
 **Streamlit Dashboard**
 
 https://eli-lilly.streamlit.app/
+
+**Instructions**
+
+If you are viewing dashboard in darmode, be sure to change settings to lightmode
+
+-A. Select far right corner button *may not appear right away
+![image](https://github.com/Tower-Babel/Lilly_Consolidated/assets/123087201/6551e0b6-d5eb-4ddc-84c7-6c235009938e)
+
+
+
+-B. After drop-down appears select settings
+-C. Select 'Dark' in settings and switch to light
+![image](https://github.com/Tower-Babel/Lilly_Consolidated/assets/123087201/1d984a5a-ac2b-46e0-960b-b2e4a9bbf8d8)
+
+![image](https://github.com/Tower-Babel/Lilly_Consolidated/assets/123087201/7b49bd8c-af96-45af-818c-34580aa47ab8)
+
+1. Select from a category of Eli Lilly Drugs
+2. Within the category analyze the drug revenue that makes up the Net Sales
+3. Change the year to compare different revenue years
+4. Visualize the revenue and compare it between other drugs within the same category
+5. Analyze the drug by year
+6. Dig in to the drug description powered by wiki
 
