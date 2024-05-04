@@ -182,6 +182,10 @@ df_selected['Year'].astype(int)
 df_selected_year1 = df_selected[df_selected["Year"] == selected_year1][["Year", "Item", "Values"]].sort_values(by='Values', ascending=False)
 df_selected_year2 = df_selected[df_selected["Year"] == selected_year2][["Year", "Item", "Values"]].sort_values(by='Values', ascending=False)
 
+#percent_change = ((df_selected_year2['Values'].values[0] - df_selected_year1['Values'].values[0]) / df_selected_year1['Values'].values[0]) * 100
+#df_year1 = df[df['Year'] == selected_year1]
+#df_year2 = df[df['Year'] == selected_year2]
+
 # create viz
 fig2 = make_subplots(rows=1, cols=2, shared_yaxes=True, shared_xaxes=True)
 
@@ -201,15 +205,43 @@ unique_items = df_selected['Item'].unique()
 for item in unique_items:
     if st.sidebar.button(item):
         st.write(f"You clicked on: {item}")
+        df_selected_item = df_selected[df_selected['Item'] == item]
+
+        df_selected_year1 = df_selected_year1[df_selected_year1['Item'] == item]
+        df_selected_year2 = df_selected_year2[df_selected_year2['Item'] == item]
+        ##
+        df_selected_year1['Values'] = df_selected_year1['Values'].astype(int)
+        df_selected_year2['Values'] = df_selected_year2['Values'].astype(int)
+        percent_change = ((df_selected_year2['Values'].values[0] - df_selected_year1['Values'].values[0]) / df_selected_year1['Values'].values[0]) * 100        
+        percent_change= round(percent_change, 0)
+        st.write(f' {selected_year1} and {selected_year2} Percent of change: **{percent_change}%**')
+        
+        df_selected_item['Year'] = df_selected_item['Year'].astype(str)
+        df_selected_item['Values'] = df_selected_item['Values'].astype(str) + 'M'
+        df_selected_item['Values'] = df_selected_item['Values'].apply(lambda x: '$' + str(x))
+        st.dataframe(df_selected_item, hide_index =True )
+        #st.dataframe(df_selected_item)
+        
         item = item.split("®")[0].strip()
         item = item.replace('Outside U.S.', '').replace('U.S.', '').replace('|', '').strip()
-        selected_item = item
+        
+        expander = st.expander(f" :mag: Click Here to See {item} Description")
+        if item == "Jardiance":
+            item = "Empagliflozin"
+        elif item == "Humalog":
+            item = "Insulin lispro"
+        elif item == "Humulin":
+            item = "Insulin (medication)"
+        elif item == "alimta":
+            item = "Pemetrexed"
+        selected_item = item    
         if selected_item:
             try:
                 page = wikipedia.page(selected_item)
-                st.write(f"## {page.title}")
-                st.write(page.content)
+                expander.write(f"## {page.title}")
+                expander.write(page.content)
             except wikipedia.exceptions.DisambiguationError as e:
-                st.write(f"Disambiguation Error for '{selected_item}': {e}")
+                expander.write(f"Disambiguation Error for '{selected_item}': {e}")
             except wikipedia.exceptions.PageError as e:
-                st.write(f"Page Error for '{selected_item}': {e}")
+                expander.write(f"Page Error for '{selected_item}': {e}")
+
