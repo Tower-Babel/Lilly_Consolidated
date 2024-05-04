@@ -14,9 +14,10 @@ If Eli Lilly were to achieve a trillion-dollar valuation, it would not only sign
 - https://investor.lilly.com/financial-information/fundamentals/income-statement
 - https://www.sec.gov/edgar/browse/?CIK=59478
 
+Data was collected from 3 sources and cleaned in Excel and Python. The data was joined on Year field and missing data was replaced with 0 if there was no other data points to verify drug existing in past.
  **Use Case**
  
- Sales and performance can be monitored usig the dashboard. High performaning products can be spoted and and tracked to reach net sale goals.
+ Sales and performance can be monitored usig the dashboard. High performing products can be spoted and and tracked to reach net sale goals.
 
  **Dashboard Features**
  - Analyze top performing products by year
@@ -24,6 +25,7 @@ If Eli Lilly were to achieve a trillion-dollar valuation, it would not only sign
  - Compare net sales for the year
 
 **Future Work**
+
 The clean data includes the past 8 years of data, the visuals can be updated to include more years. The dashboard can be updated to include more sources and revenue cycles
 
 **Streamlit Dashboard**
@@ -32,7 +34,7 @@ https://eli-lilly.streamlit.app/
 
 **Instructions**
 
-If you are viewing dashboard in darmode, be sure to change settings to lightmode
+If you are viewing dashboard in dark-mode, be sure to change settings to lightmode
 
 -A. Select far right corner button *may not appear right away
 ![image](https://github.com/Tower-Babel/Lilly_Consolidated/assets/123087201/6551e0b6-d5eb-4ddc-84c7-6c235009938e)
