@@ -15,6 +15,7 @@ If Eli Lilly were to achieve a trillion-dollar valuation, it would not only sign
 - https://www.sec.gov/edgar/browse/?CIK=59478
 
 Data was collected from 3 sources and cleaned in Excel and Python. The data was joined on Year field and missing data was replaced with 0 if there was no other data points to verify drug existing in past.
+
  **Use Case**
  
  Sales and performance can be monitored usig the dashboard. High performing products can be spoted and and tracked to reach net sale goals.
