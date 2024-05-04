@@ -2,11 +2,13 @@ import streamlit as st
 import pandas as pd
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
+import wikipedia
+
 st.write("#")
 st.markdown("<h1 style='color: #e87723; font-family: High Tower Text;'>Eli Lily Consolidated Revenue*</h1>", unsafe_allow_html=True)
 
 
-df = pd.read_csv("sheet2.csv")
+df = pd.read_csv("output_file.csv")
 cash_flow = pd.read_csv("cashflow.csv")
 
 # filter and melt cash_flow dataFrame
@@ -29,23 +31,12 @@ body hr {
     border-bottom: 1.5px solid rgba(23, 48, 28, 0.5); 
 }
 
-div[data-testid="stToolbarActions"] {
-    visibility:hidden;
-}
+
 /*
 #MainMenu {visibility: hidden;}
 */
 footer {visibility: hidden;}
 
-div[data-baseweb="tab-panel"] {
-    padding-top: 2rem;
-}
-
-div.stButton > button:first-child {
-    width: 200px;
-    background-color: rgba(23, 48, 28, 0.95) ;
-    color: #F6F4F0; 
-}
 div.stButton p {
     font-family: "Heebo";
     font-weight:600;
@@ -54,19 +45,6 @@ div.stButton p {
     padding-top: 1px;
 }
 
-div.stLinkButton > a:first-child {
-    width: 125px;
-    background-color: rgba(23, 48, 28, 0.95) ;
-    font-family: "Heebo" !important;
-    letter-spacing: 0.25px;
-    
-}
-div.stLinkButton p {
-    font-size: 15px !important;
-    color: #F6F4F0;
-    font-family: "Heebo" !important;
-    font-weight: 600;
-}
 section[data-testid="stSidebar"] {
     top: 5rem;
     width: 200px !important; 
@@ -74,19 +52,7 @@ section[data-testid="stSidebar"] {
     background: #F6F4F0;
     border-right: 1.5px solid rgba(23, 48, 28, 0.5);
 }
-div[data-testid="collapsedControl"] {
-    top:5.15rem;
-}
-div[data-testid="stExpander"] {
-    background-color: rgba(247, 250, 248, 0.45) ;
-    background: transparent;
-    border: 0px solid black;
-}
-.st-emotion-cache-yf5hy5 p:nth-child(1) {
-    font-size: 16px;
-    color: green;
-    font-family: "Georgia";
-}
+
 
 header[data-testid="stHeader"] {
     background: url('https://drive.google.com/file/d/1euw09JkxS3jBIdofP6kbSdrJIouPtnFP/view?usp=sharing');
@@ -97,50 +63,12 @@ header[data-testid="stHeader"] {
 }
 
 
-div[data-testid="stAppViewContainer"] > section:nth-child(2) {
-    overflow-x: hidden;
-}
-.st-emotion-cache-uf99v8 {
-    overflow-x: hidden;
-}
-
-.appview-container > section:nth-child(2) > div:nth-child(1) {
-    padding: 4.5rem 0.5rem 0rem 1rem;
-}
-.appview-container > section:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
-    padding: 1rem 1.5rem 1.5rem 1.5rem;
-}
-.st-dn {
-    background-color: transparent;
-}
-
-
-div[data-testid="textInputRootElement"] {
-    border: 1px solid rgba(23, 48, 28, 0.95);
-}
-div[data-testid="stForm"] {
-    border: 0px;
-    padding:0;
-}
-div[data-testid="stExpanderDetails"] p {
-    font-family:'Georgia';
-    font-size: 18px;
-}
-div[data-testid="StyledLinkIconContainer"] {
-    font-weight: 900;
-    font-family:'Heebo';
-    font-size: 2.5rem;
-    letter-spacing: 0.25px;
-}
 div[data-testid="stMarkdownContainer"] h2 {
     font-family:'Heebo';
     font-weight: 800;
     letter-spacing: 0.25px;
 }
 
-.st-emotion-cache-z5fcl4 {
-    padding: 5rem 0.5rem 0rem 1rem;
-}
 
 .appview-container {
     background: radial-gradient(rgba(23, 48, 28, 0.7), transparent);
@@ -153,10 +81,6 @@ div[data-testid="stExpander"] > details {
 }
 
 
-div[data-baseweb="tab-panel"] > div:nth-child(1) > div:nth-child(1) {
-    gap: 0.5rem;
-}
-
 div[data-testid="stExpander"] > details > summary:hover {
     color: rgb(23, 48, 28);
 }
@@ -168,51 +92,17 @@ div[data-baseweb="select"] {
     letter-spacing: 0.25px;
 }
 
-ul[data-testid="stVirtualDropdown"] li {
-    text-align: center;
-    font-family: "Heebo";
-}
-ul[data-testid="stVirtualDropdown"] li:hover {
-    color: rgba(23, 48, 28, 0.95);
-    background-color:#B3BCB4;
-}
-
-div[data-baseweb="select"] > div:first-child > div > div:first-child {
-    padding-left: 48px;
-    color: #F6F4F0;
-    padding-top: 1px;
-    
-}
 
 div[data-baseweb="select"] div {
     background-color: rgba(23, 48, 28, 0.95);
     color: #F6F4F0;
     border: 0px;
 }
-div[data-baseweb="popover"] .st-dk {
-    background-color: rgba(23, 48, 28, 0.95);
-}
-div[data-baseweb="popover"] li {
-    color: #F6F4F0;
-    background-color: rgba(23, 48, 28, 0.95);
-}
-div[data-baseweb="popover"]  .st-emotion-cache-35i14j {
-    background: #B3BCB4;
-    color: rgba(23, 48, 28, 0.95) !important;
-}
-
 
 div[data-baseweb="select"] svg {
     color: #F6F4F0;
 }
 
-div[data-testid="stForm"] .st-dk {
-    background-color: #DFE3E0;
-}
-
-div[data-testid="stCaptionContainer"] {
-    margin-bottom: -1.75rem;
-}
 
 </style>
 ''', unsafe_allow_html=True)
@@ -221,8 +111,12 @@ div[data-testid="stCaptionContainer"] {
 col1, col2, col3 = st.columns(3)
 
 #dropdown menu
-selected_year1 = col1.selectbox("Select Year 1", sorted(reshaped_line_items['Year'].unique()))
-selected_year2 = col2.selectbox("Select Year 2", sorted(reshaped_line_items['Year'].unique()))
+#selected_year1 = col1.selectbox("Select Year 1", sorted(reshaped_line_items['Year'].unique()))
+#selected_year2 = col2.selectbox("Select Year 2", sorted(reshaped_line_items['Year'].unique()))
+available_years = sorted(reshaped_line_items['Year'].unique())
+available_years = [year for year in available_years if int(year) in [2021, 2022, 2023]]
+selected_year1 = col1.selectbox("Select Year 1", available_years)
+selected_year2 = col2.selectbox("Select Year 2", available_years)
 
 df_year1 = df[df['Year'] == selected_year1]
 df_year2 = df[df['Year'] == selected_year2]
@@ -273,12 +167,17 @@ drug_categories = {
 #sidebar
 selected_category = st.sidebar.selectbox("Select Drug Category", list(drug_categories.keys()))
 
-#filter
+col3.write("#")
+col3.write("#")
+col3.write("#")
+col3.write("(*Net Sales include the total sales from all five drug categories)")
+
 selected_drugs = drug_categories[selected_category]
 df_selected = df[df["Item"].isin(selected_drugs)]
 
 selected_year1 = int(selected_year1)
 selected_year2 = int(selected_year2)
+df_selected['Year'].astype(int)
 
 df_selected_year1 = df_selected[df_selected["Year"] == selected_year1][["Year", "Item", "Values"]].sort_values(by='Values', ascending=False)
 df_selected_year2 = df_selected[df_selected["Year"] == selected_year2][["Year", "Item", "Values"]].sort_values(by='Values', ascending=False)
@@ -290,8 +189,27 @@ fig2.add_trace(go.Bar(x=df_selected_year1['Values'], y=df_selected_year1['Item']
 fig2.add_trace(go.Bar(x=df_selected_year2['Values'], y=df_selected_year2['Item'], orientation='h', opacity=0.6, width=0.5, name=str(selected_year2), hovertemplate='%{x}', marker=dict(color='grey')), row=1, col=1)
 
 fig2.update_layout(barmode='overlay', title=f"{selected_category}", xaxis_title='Revenue (In millions of USD)', yaxis_title='Drug')
+
+
 st.plotly_chart(fig2)
 
 
-#Go back and clean data for years 2014-2020 and upload to csv
-#add note to signal revenue is in millions
+#st.sidebar.dataframe(df_selected['Item'].unique() )
+unique_items = df_selected['Item'].unique()
+#st.dataframe(unique_items[["Year", "Item", "Values"]])
+
+for item in unique_items:
+    if st.sidebar.button(item):
+        st.write(f"You clicked on: {item}")
+        item = item.split("®")[0].strip()
+        item = item.replace('Outside U.S.', '').replace('U.S.', '').replace('|', '').strip()
+        selected_item = item
+        if selected_item:
+            try:
+                page = wikipedia.page(selected_item)
+                st.write(f"## {page.title}")
+                st.write(page.content)
+            except wikipedia.exceptions.DisambiguationError as e:
+                st.write(f"Disambiguation Error for '{selected_item}': {e}")
+            except wikipedia.exceptions.PageError as e:
+                st.write(f"Page Error for '{selected_item}': {e}")
