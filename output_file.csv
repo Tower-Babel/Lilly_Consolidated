@@ -1,0 +1,478 @@
+Year,Item,Values
+2021,Total Revenue,28318.4
+2022,Total Revenue,28541.4
+2023,Total Revenue,34124.1
+2021,U.S.,16811.0
+2022,U.S.,18190.0
+2023,U.S.,21791.0
+2021,Outside U.S.,11507.4
+2022,Outside U.S.,10351.3
+2023,Outside U.S.,12333.1
+2021,Diabetes and Obesity | U.S.,8719.3
+2022,Diabetes and Obesity | U.S.,9911.1
+2023,Diabetes and Obesity | U.S.,14780.8
+2021,Diabetes and Obesity | Outside U.S.,4468.8
+2022,Diabetes and Obesity | Outside U.S.,4553.7
+2023,Diabetes and Obesity | Outside U.S.,4886.8
+2021,Trulicity® | U.S.,4914.4
+2022,Trulicity® | U.S.,5688.8
+2023,Trulicity® | U.S.,5433.3
+2021,Trulicity® | Outside U.S.,1557.6
+2022,Trulicity® | Outside U.S.,1750.9
+2023,Trulicity® | Outside U.S.,1699.2
+2021,Mounjaro® | U.S.,0.0
+2022,Mounjaro® | U.S.,366.6
+2023,Mounjaro® | U.S.,4834.2
+2021,Mounjaro® | Outside U.S.,0.0
+2022,Mounjaro® | Outside U.S.,115.9
+2023,Mounjaro® | Outside U.S.,328.9
+2021,Jardiance,1490.8
+2022,Jardiance,2066.0
+2023,Jardiance,2744.7
+2021,Jardiance | U.S.,807.3
+2022,Jardiance | U.S.,1194.5
+2023,Jardiance | U.S.,1600.4
+2021,Jardiance | Outside U.S.,683.5
+2022,Jardiance | Outside U.S.,871.5
+2023,Jardiance | Outside U.S.,1144.2
+2021,Humalog® | U.S.,1320.7
+2022,Humalog® | U.S.,1191.9
+2023,Humalog® | U.S.,863.2
+2021,Humalog® | Outside U.S.,1132.3
+2022,Humalog® | Outside U.S.,868.7
+2023,Humalog® | Outside U.S.,800.2
+2021,Humulin® | U.S.,832.9
+2022,Humulin® | U.S.,730.2
+2023,Humulin® | U.S.,610.1
+2021,Humulin® | Outside U.S.,389.6
+2022,Humulin® | Outside U.S.,289.2
+2023,Humulin® | Outside U.S.,242.0
+2021,Basaglar,892.5
+2022,Basaglar,760.4
+2023,Basaglar,728.3
+2021,Basaglar | U.S.,588.3
+2022,Basaglar | U.S.,470.7
+2023,Basaglar | U.S.,443.1
+2021,Basaglar | Outside U.S.,304.2
+2022,Basaglar | Outside U.S.,289.7
+2023,Basaglar | Outside U.S.,285.2
+2021,Baqsimi | U.S.,96.4
+2022,Baqsimi | U.S.,110.4
+2023,Baqsimi | U.S.,645.7
+2021,Baqsimi | Outside U.S.,16.8
+2022,Baqsimi | Outside U.S.,28.9
+2023,Baqsimi | Outside U.S.,31.9
+2021,Zepbound® | U.S.,0.0
+2022,Zepbound® | U.S.,0.0
+2023,Zepbound® | U.S.,175.8
+2021,Zepbound® | Outside U.S.,0.0
+2022,Zepbound® | Outside U.S.,0.0
+2023,Zepbound® | Outside U.S.,0.0
+2021,Other diabetes and obesity | U.S.,159.3
+2022,Other diabetes and obesity | U.S.,158.0
+2023,Other diabetes and obesity | U.S.,175.0
+2021,Other diabetes and obesity | Outside U.S.,384.8
+2022,Other diabetes and obesity | Outside U.S.,338.9
+2023,Other diabetes and obesity | Outside U.S.,355.2
+2021,Oncology | U.S.,3028.8
+2022,Oncology | U.S.,3218.1
+2023,Oncology | U.S.,3797.0
+2021,Oncology | Outside U.S.,2712.5
+2022,Oncology | Outside U.S.,2448.1
+2023,Oncology | Outside U.S.,2861.3
+2021,Verzenio® | U.S.,834.9
+2022,Verzenio® | U.S.,1653.2
+2023,Verzenio® | U.S.,2509.0
+2021,Verzenio® | Outside U.S.,515.0
+2022,Verzenio® | Outside U.S.,830.3
+2023,Verzenio® | Outside U.S.,1354.3
+2021,Cyramza® | U.S.,358.1
+2022,Cyramza® | U.S.,351.4
+2023,Cyramza® | U.S.,402.3
+2021,Cyramza® | Outside U.S.,674.8
+2022,Cyramza® | Outside U.S.,620.0
+2023,Cyramza® | Outside U.S.,572.4
+2021,Erbitux® | U.S.,481.8
+2022,Erbitux® | U.S.,500.1
+2023,Erbitux® | U.S.,528.9
+2021,Erbitux® | Outside U.S.,66.4
+2022,Erbitux® | Outside U.S.,66.4
+2023,Erbitux® | Outside U.S.,67.6
+2021,Tyvyt®,418.1
+2022,Tyvyt®,293.3
+2023,Tyvyt®,393.4
+2021,Tyvyt® | U.S.,0.0
+2022,Tyvyt® | U.S.,0.0
+2023,Tyvyt® | U.S.,0.0
+2021,Tyvyt® | Outside U.S.,418.1
+2022,Tyvyt® | Outside U.S.,293.3
+2023,Tyvyt® | Outside U.S.,393.4
+2021,Alimta® | U.S.,1233.9
+2022,Alimta® | U.S.,543.7
+2023,Alimta® | U.S.,72.9
+2021,Alimta® | Outside U.S.,827.5
+2022,Alimta® | Outside U.S.,384.0
+2023,Alimta® | Outside U.S.,144.6
+2021,Other oncology | U.S.,120.1
+2022,Other oncology | U.S.,169.7
+2023,Other oncology | U.S.,283.9
+2021,Other oncology | Outside U.S.,210.7
+2022,Other oncology | Outside U.S.,254.1
+2023,Other oncology | Outside U.S.,329.0
+2021,Immunology | U.S.,1881.8
+2022,Immunology | U.S.,1892.8
+2023,Immunology | U.S.,2057.9
+2021,Immunology | Outside U.S.,1479.0
+2022,Immunology | Outside U.S.,1451.8
+2023,Immunology | Outside U.S.,1739.6
+2021,Taltz® | U.S.,1542.4
+2022,Taltz® | U.S.,1724.6
+2023,Taltz® | U.S.,1831.6
+2021,Taltz® | Outside U.S.,670.4
+2022,Taltz® | Outside U.S.,757.4
+2023,Taltz® | Outside U.S.,928.0
+2021,Olumiant,1115.1
+2022,Olumiant,830.5
+2023,Olumiant,922.6
+2021,Olumiant | U.S.,324.1
+2022,Olumiant | U.S.,148.2
+2023,Olumiant | U.S.,225.5
+2021,Olumiant | Outside U.S.,791.0
+2022,Olumiant | Outside U.S.,682.3
+2023,Olumiant | Outside U.S.,697.2
+2021,Other immunology | U.S.,15.3
+2022,Other immunology | U.S.,20.0
+2023,Other immunology | U.S.,0.8
+2021,Other immunology | Outside U.S.,17.6
+2022,Other immunology | Outside U.S.,12.1
+2023,Other immunology | Outside U.S.,114.4
+2021,Neuroscience | U.S.,614.8
+2022,Neuroscience | U.S.,612.4
+2023,Neuroscience | U.S.,696.0
+2021,Neuroscience | Outside U.S.,1283.7
+2022,Neuroscience | Outside U.S.,933.8
+2023,Neuroscience | Outside U.S.,2182.5
+2021,Zyprexa® | U.S.,39.6
+2022,Zyprexa® | U.S.,30.4
+2023,Zyprexa® | U.S.,79.4
+2021,Zyprexa® | Outside U.S.,390.7
+2022,Zyprexa® | Outside U.S.,306.5
+2023,Zyprexa® | Outside U.S.,1615.4
+2021,Emgality® | U.S.,434.5
+2022,Emgality® | U.S.,462.8
+2023,Emgality® | U.S.,482.2
+2021,Emgality® | Outside U.S.,142.7
+2022,Emgality® | Outside U.S.,188.1
+2023,Emgality® | Outside U.S.,196.0
+2021,Other neuroscience | U.S.,140.7
+2022,Other neuroscience | U.S.,119.2
+2023,Other neuroscience | U.S.,134.4
+2021,Other neuroscience | Outside U.S.,750.3
+2022,Other neuroscience | Outside U.S.,439.2
+2023,Other neuroscience | Outside U.S.,371.1
+2021,Other | U.S.,2566.4
+2022,Other | U.S.,2555.7
+2023,Other | U.S.,459.3
+2021,Other | Outside U.S.,1563.5
+2022,Other | Outside U.S.,964.0
+2023,Other | Outside U.S.,662.9
+2021,Forteo® | U.S.,441.6
+2022,Forteo® | U.S.,367.3
+2023,Forteo® | U.S.,335.5
+2021,Forteo® | Outside U.S.,360.3
+2022,Forteo® | Outside U.S.,245.8
+2023,Forteo® | Outside U.S.,197.7
+2021,Cialis® | U.S.,10.6
+2022,Cialis® | U.S.,35.2
+2023,Cialis® | U.S.,26.1
+2021,Cialis® | Outside U.S.,707.9
+2022,Cialis® | Outside U.S.,552.1
+2023,Cialis® | Outside U.S.,355.3
+2021,COVID-19 antibodies,2240.0
+2022,COVID-19 antibodies,2020.0
+2023,COVID-19 antibodies,0.0
+2021,COVID-19 antibodies | U.S.,1978.0
+2022,COVID-19 antibodies | U.S.,2008.9
+2023,COVID-19 antibodies | U.S.,0.0
+2021,COVID-19 antibodies | Outside U.S.,261.4
+2022,COVID-19 antibodies | Outside U.S.,14.7
+2023,COVID-19 antibodies | Outside U.S.,0.0
+2021,Other | U.S.,136.1
+2022,Other | U.S.,144.2
+2023,Other | U.S.,97.7
+2021,Other | Outside U.S.,233.9
+2022,Other | Outside U.S.,151.3
+2023,Other | Outside U.S.,109.9
+2020,Total Revenue,24539.8
+2019,Total Revenue,22319.5
+2018,Total Revenue,21493.3
+2020,U.S. ,14229.3
+2019,U.S. ,12722.6
+2018,U.S. ,12391.9
+2020,  Outside U.S.,10310.5
+2019,  Outside U.S.,9596.8
+2018,  Outside U.S.,9101.4
+2020,  Diabetes | U.S.,7909.1
+2019,  Diabetes | U.S.,7529.5
+2018,  Diabetes | U.S.,6607.0
+2020,  Diabetes | Outside U.S.,3925.3
+2019,  Diabetes | Outside U.S.,3602.6
+2018,  Diabetes | Outside U.S.,3212.5
+2020,  Trulicity® | U.S.,3835.9
+2019,  Trulicity® | U.S.,3155.2
+2018,  Trulicity® | U.S.,2515.8
+2020,  Trulicity® | Outside U.S.,1232.2
+2019,  Trulicity® | Outside U.S.,972.7
+2018,  Trulicity® | Outside U.S.,683.3
+2020,  Humalog® | U.S.,1485.6
+2019,  Humalog® | U.S.,1669.7
+2018,  Humalog® | U.S.,1787.8
+2020,  Humalog® | Outside U.S.,1140.3
+2019,  Humalog® | Outside U.S.,1151.0
+2018,  Humalog® | Outside U.S.,1208.7
+2020,  Humulin® | U.S.,866.4
+2019,  Humulin® | U.S.,879.7
+2018,  Humulin® | U.S.,910.2
+2020,  Humulin® | Outside U.S.,393.2
+2019,  Humulin® | Outside U.S.,410.4
+2018,  Humulin® | Outside U.S.,421.2
+2020,  Jardiance®,1153.8
+2019,  Jardiance®,944.2
+2018,  Jardiance®,658.3
+2020,  Jardiance® | U.S.,620.8
+2019,  Jardiance® | U.S.,565.9
+2018,  Jardiance® | U.S.,400.2
+2020,  Jardiance® | Outside U.S.,533.0
+2019,  Jardiance® | Outside U.S.,378.3
+2018,  Jardiance® | Outside U.S.,258.1
+2020,  Basaglar®,1124.4
+2019,  Basaglar®,1112.6
+2018,  Basaglar®,801.2
+2020,  Basaglar® | U.S.,842.3
+2019,  Basaglar® | U.S.,876.2
+2018,  Basaglar® | U.S.,622.8
+2020,  Basaglar® | Outside U.S.,282.1
+2019,  Basaglar® | Outside U.S.,236.3
+2018,  Basaglar® | Outside U.S.,178.5
+2020,  Trajenta®,358.5
+2019,  Trajenta®,590.6
+2018,  Trajenta®,574.7
+2020,  Trajenta® | U.S.,95.6
+2019,  Trajenta® | U.S.,224.8
+2018,  Trajenta® | U.S.,224.2
+2020,  Trajenta® | Outside U.S.,263.0
+2019,  Trajenta® | Outside U.S.,365.8
+2018,  Trajenta® | Outside U.S.,350.5
+2020,  Other Diabetes | U.S.,162.5
+2019,  Other Diabetes | U.S.,158.0
+2018,  Other Diabetes | U.S.,146.0
+2020,  Other Diabetes | Outside U.S.,81.5
+2019,  Other Diabetes | Outside U.S.,88.1
+2018,  Other Diabetes | Outside U.S.,112.2
+2020,  Oncology | U.S.,2792.1
+2019,  Oncology | U.S.,2608.5
+2018,  Oncology | U.S.,2403.2
+2020,  Oncology | Outside U.S.,2527.2
+2019,  Oncology | Outside U.S.,2005.9
+2018,  Oncology | Outside U.S.,1857.3
+2020,  Alimta® | U.S.,1265.3
+2019,  Alimta® | U.S.,1219.5
+2018,  Alimta® | U.S.,1131.0
+2020,  Alimta® | Outside U.S.,1064.7
+2019,  Alimta® | Outside U.S.,896.4
+2018,  Alimta® | Outside U.S.,1001.9
+2020,  Cyramza® | U.S.,381.9
+2019,  Cyramza® | U.S.,335.3
+2018,  Cyramza® | U.S.,291.5
+2020,  Cyramza® | Outside U.S.,650.8
+2019,  Cyramza® | Outside U.S.,589.9
+2018,  Cyramza® | Outside U.S.,529.9
+2020,  Verzenio® | U.S.,618.2
+2019,  Verzenio® | U.S.,454.8
+2018,  Verzenio® | U.S.,248.5
+2020,  Verzenio® | Outside U.S.,294.4
+2019,  Verzenio® | Outside U.S.,124.9
+2018,  Verzenio® | Outside U.S.,6.6
+2020,  Erbitux® | U.S.,480.1
+2019,  Erbitux® | U.S.,487.9
+2018,  Erbitux® | U.S.,531.6
+2020,  Erbitux® | Outside U.S.,56.3
+2019,  Erbitux® | Outside U.S.,55.4
+2018,  Erbitux® | Outside U.S.,103.8
+2020,  Other Oncology | U.S.,46.6
+2019,  Other Oncology | U.S.,111.0
+2018,  Other Oncology | U.S.,200.6
+2020,  Other Oncology | Outside U.S.,461.0
+2019,  Other Oncology | Outside U.S.,339.3
+2018,  Other Oncology | Outside U.S.,215.1
+2020,  Immunology | U.S.,1372.3
+2019,  Immunology | U.S.,1059.0
+2018,  Immunology | U.S.,745.4
+2020,  Immunology | Outside U.S.,1089.6
+2019,  Immunology | Outside U.S.,734.3
+2018,  Immunology | Outside U.S.,394.6
+2020,  Taltz® | U.S.,1288.5
+2019,  Taltz® | U.S.,1016.8
+2018,  Taltz® | U.S.,738.7
+2020,  Taltz® | Outside U.S.,500.0
+2019,  Taltz® | Outside U.S.,349.6
+2018,  Taltz® | Outside U.S.,198.7
+2020,  Olumiant®,638.9
+2019,  Olumiant®,426.9
+2018,  Olumiant®,202.5
+2020,  Olumiant® | U.S.,63.8
+2019,  Olumiant® | U.S.,42.2
+2018,  Olumiant® | U.S.,6.7
+2020,  Olumiant® | Outside U.S.,575.0
+2019,  Olumiant® | Outside U.S.,384.7
+2018,  Olumiant® | Outside U.S.,195.9
+2020,  Other Immunology | U.S.,20.0
+2019,  Other Immunology | U.S.,0.0
+2018,  Other Immunology | U.S.,0.0
+2020,  Other Immunology | Outside U.S.,14.6
+2019,  Other Immunology | Outside U.S.,0.0
+2018,  Other Immunology | Outside U.S.,0.0
+2020,  Neuroscience | U.S.,487.3
+2019,  Neuroscience | U.S.,356.5
+2018,  Neuroscience | U.S.,277.4
+2020,  Neuroscience | Outside U.S.,1344.0
+2019,  Neuroscience | Outside U.S.,1366.4
+2018,  Neuroscience | Outside U.S.,1543.3
+2020,  Cymbalta® | U.S.,42.1
+2019,  Cymbalta® | U.S.,49.6
+2018,  Cymbalta® | U.S.,54.3
+2020,  Cymbalta® | Outside U.S.,725.6
+2019,  Cymbalta® | Outside U.S.,675.8
+2018,  Cymbalta® | Outside U.S.,653.7
+2020,  Zyprexa® | U.S.,46.1
+2019,  Zyprexa® | U.S.,41.0
+2018,  Zyprexa® | U.S.,36.2
+2020,  Zyprexa® | Outside U.S.,360.5
+2019,  Zyprexa® | Outside U.S.,377.6
+2018,  Zyprexa® | Outside U.S.,435.1
+2020,  Emgality® | U.S.,325.9
+2019,  Emgality® | U.S.,154.9
+2018,  Emgality® | U.S.,4.9
+2020,  Emgality® | Outside U.S.,37.0
+2019,  Emgality® | Outside U.S.,7.7
+2018,  Emgality® | Outside U.S.,0.0
+2020,  Other Neuroscience | U.S.,73.2
+2019,  Other Neuroscience | U.S.,111.0
+2018,  Other Neuroscience | U.S.,182.0
+2020,  Other Neuroscience | Outside U.S.,220.9
+2019,  Other Neuroscience | Outside U.S.,305.3
+2018,  Other Neuroscience | Outside U.S.,454.5
+2020,  Other | U.S.,1668.4
+2019,  Other | U.S.,1169.1
+2018,  Other | U.S.,2358.8
+2020,  Other | Outside U.S.,1424.4
+2019,  Other | Outside U.S.,1887.7
+2018,  Other | Outside U.S.,2093.7
+2020,  Forteo® | U.S.,510.3
+2019,  Forteo® | U.S.,645.5
+2018,  Forteo® | U.S.,757.9
+2020,  Forteo® | Outside U.S.,536.0
+2019,  Forteo® | Outside U.S.,759.1
+2018,  Forteo® | Outside U.S.,817.7
+2020,  Bamlanivimab,871.2
+2019,  Bamlanivimab,0.0
+2018,  Bamlanivimab,0.0
+2020,  Bamlanivimab | U.S.,850.0
+2019,  Bamlanivimab | U.S.,0.0
+2018,  Bamlanivimab | U.S.,0.0
+2020,  Bamlanivimab | Outside U.S.,21.2
+2019,  Bamlanivimab | Outside U.S.,0.0
+2018,  Bamlanivimab | Outside U.S.,0.0
+2020,  Cialis® | U.S.,61.8
+2019,  Cialis® | U.S.,231.7
+2018,  Cialis® | U.S.,1129.2
+2020,  Cialis® | Outside U.S.,545.4
+2019,  Cialis® | Outside U.S.,658.8
+2018,  Cialis® | Outside U.S.,722.7
+2020,  Other | U.S..1,246.4
+2019,  Other | U.S..1,291.9
+2018,  Other | U.S..1,471.8
+2020,  Other | Outside U.S..1,321.8
+2019,  Other | Outside U.S..1,469.7
+2018,  Other | Outside U.S..1,553.3
+2017,Total Revenue,22871.3
+2016,Total Revenue,21222.1
+2015,Total Revenue,19958.7
+2017,Humalog ,2865.2
+2016,Humalog ,2768.8
+2015,Humalog ,2841.9
+2017,Trulicity ,2029.8
+2016,Trulicity ,925.5
+2015,Trulicity ,248.7
+2017,Forteo ,1749.0
+2016,Forteo ,1500.0
+2015,Forteo ,1348.3
+2017,Humulin ,1335.4
+2016,Humulin ,1365.9
+2015,Humulin ,1307.4
+2017,Trajenta ,537.9
+2016,Trajenta ,436.6
+2015,Trajenta ,356.8
+2017,Jardiance ,447.5
+2016,Jardiance ,201.9
+2015,Jardiance ,60.2
+2017,Basaglar ,432.1
+2016,Basaglar ,86.1
+2015,Basaglar ,11.1
+2017,Other Endocrinology ,688.3
+2016,Other Endocrinology ,798.0
+2015,Other Endocrinology ,862.4
+2017,Oncology,3811.9
+2016,Oncology,3721.8
+2015,Oncology,3509.8
+2017,Alimta ,2062.5
+2016,Alimta ,2283.3
+2015,Alimta ,2493.1
+2017,Cyramza®,758.3
+2016,Cyramza®,614.1
+2015,Cyramza®,383.8
+2017,Erbitux ,645.9
+2016,Erbitux ,687.0
+2015,Erbitux ,485.0
+2017,Other Oncology,345.2
+2016,Other Oncology,137.4
+2015,Other Oncology,147.9
+2017,Cardiovascular,2871.1
+2016,Cardiovascular,3225.4
+2015,Cardiovascular,3068.0
+2017,Cialis ,2323.1
+2016,Cialis ,2471.6
+2015,Cialis ,2310.7
+2017,Effient ,388.9
+2016,Effient ,535.2
+2015,Effient ,523.0
+2017,Other Cardiovascular ,159.1
+2016,Other Cardiovascular ,218.6
+2015,Other Cardiovascular ,234.3
+2017,Neuroscience,2171.0
+2016,Neuroscience,2720.3
+2015,Neuroscience,2935.4
+2017,Cymbalta ,757.2
+2016,Cymbalta ,930.5
+2015,Cymbalta ,1027.6
+2017,Strattera ,618.2
+2016,Strattera ,854.7
+2015,Strattera ,784.0
+2017,Zyprexa ,581.2
+2016,Zyprexa ,725.3
+2015,Zyprexa ,940.3
+2017,Other Neuroscience ,214.4
+2016,Other Neuroscience ,209.8
+2015,Other Neuroscience ,183.5
+2017,Immunology: ,605.1
+2016,Immunology: ,113.1
+2015,Immunology: ,0.0
+2017,Taltz ,559.2
+2016,Taltz ,113.1
+2015,Taltz ,0.0
+2017,Other Immunology ,45.9
+2016,Other Immunology ,0.0
+2015,Other Immunology ,0.0
+2017,Other human pharmaceutical products ,241.3
+2016,Other human pharmaceutical products ,200.5
+2015,Other human pharmaceutical products ,227.7
