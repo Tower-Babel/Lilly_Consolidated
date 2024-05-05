@@ -237,6 +237,18 @@ def page1():
                 item = "Insulin (medication)"
             elif item == "alimta":
                 item = "Pemetrexed"
+            elif item == "Verzenio":
+                item = "Abemaciclib"
+            elif item == "Erbitux":
+                item = "Cetuximab"
+            elif item == "Alimta":
+                item = "Pemetrexed"
+            elif item == "taltz":
+                item = "Ixekizumab"
+            elif item == "Cialis":
+                item = "Tadalafil"
+            elif item == "Forteo":
+                item = "Teriparatide"
             selected_item = item    
             if selected_item:
                 try:
