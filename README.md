@@ -1,5 +1,7 @@
 ![image](https://github.com/Tower-Babel/Lilly_Consolidated/assets/123087201/c866632e-63f9-47f1-a9df-80a4d1b40c9e)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://eli-lilly.streamlit.app/)
+
 **Eli-Lilly's Trillion Dollar Dream**
 
 In the technology industry, the term "FAANG" relates to the largest and most influential companies in the world: Facebook, Amazon, Apple, Netflix, and Google. 
