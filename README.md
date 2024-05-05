@@ -38,6 +38,7 @@ https://eli-lilly.streamlit.app/
 If you are viewing dashboard in dark-mode, be sure to change settings to lightmode
 
 -A. Select far right corner button *may not appear right away
+
 ![image](https://github.com/Tower-Babel/Lilly_Consolidated/assets/123087201/6551e0b6-d5eb-4ddc-84c7-6c235009938e)
 
 
