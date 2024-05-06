@@ -207,7 +207,7 @@ def page1():
 
     for item in unique_items:
         if st.sidebar.button(item):
-            st.write(f"You clicked on: {item}")
+            st.write(f"You clicked on: {item}  The below description includes the generic name of the medication.")
             df_selected_item = df_selected[df_selected['Item'] == item]
 
             df_selected_year1 = df_selected_year1[df_selected_year1['Item'] == item]
