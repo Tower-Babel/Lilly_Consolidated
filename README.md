@@ -29,7 +29,7 @@ Data was collected from 3 sources and cleaned in Excel and Python. The data was 
 
 **Future Work**
 
-The clean data includes the past 8 years of data, the visuals can be updated to include more years. The dashboard can be updated to include more sources and revenue cycles
+The clean data files includes 8 years of product data. In the future the visuals can be updated to include more years to show the spike in product revenue. The dashboard can be updated to include more sources and revenue cycles
 
 **Streamlit Dashboard**
 
