@@ -192,8 +192,8 @@ def page1():
     # create viz
     fig2 = make_subplots(rows=1, cols=2, shared_yaxes=True, shared_xaxes=True)
 
-    fig2.add_trace(go.Bar(x=df_selected_year1['Values'], y=df_selected_year1['Item'], orientation='h', opacity=0.6, width=0.7, name=str(selected_year1), hovertemplate='%{x}', marker=dict(color='#e87723')), row=1, col=1)
-    fig2.add_trace(go.Bar(x=df_selected_year2['Values'], y=df_selected_year2['Item'], orientation='h', opacity=0.6, width=0.5, name=str(selected_year2), hovertemplate='%{x}', marker=dict(color='grey')), row=1, col=1)
+    fig2.add_trace(go.Bar(x=df_selected_year1['Values'], y=df_selected_year1['Item'], orientation='h', opacity=0.6, width=0.7, name=str(selected_year1), hovertemplate=f'{selected_year1} Revenue: $%{{x}}M', marker=dict(color='#e87723')), row=1, col=1)
+    fig2.add_trace(go.Bar(x=df_selected_year2['Values'], y=df_selected_year2['Item'], orientation='h', opacity=0.6, width=0.5, name=str(selected_year2), hovertemplate=f'{selected_year2} Revenue: $%{{x}}M', marker=dict(color='grey')), row=1, col=1)
 
     fig2.update_layout(barmode='overlay', title=f"{selected_category}", xaxis_title='Revenue (In millions of USD)', yaxis_title='Drug')
 
